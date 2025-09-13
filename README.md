@@ -1,47 +1,47 @@
 <h2>
-  Aplicação full-stack de <b>autenticação de usuários</b> desenvolvida com
-  Node.js + Express no back-end e React no front-end.
+  Full-stack <b>user authentication</b> application developed with
+  Node.js + Express on the back-end and React on the front-end.
 </h2>
 
 <h3>
-  O projeto implementa um sistema completo de registro e login com validações,
-  tokens JWT e persistência em banco de dados.
+  The project implements a complete registration and login system with
+  validations, JWT tokens, and database persistence.
 </h3>
 
 <p align="center">
   <img
     src="./login-project/public/readmeRegister.png"
-    alt="Tela de login do sistema"
+    alt="System login screen"
   />
 </p>
 
-<h2>Funcionalidades Implementadas:</h2>
+<h2>Implemented Features:</h2>
 <ul>
-  <li>Sistema de registro de novos usuários com validação de dados</li>
-  <li>Login seguro com verificação de credenciais</li>
-  <li>Geração e validação de tokens JWT para autenticação</li>
-  <li>Hash de senhas utilizando bcrypt para segurança</li>
-  <li>Persistência de dados em banco de dados</li>
-  <li>Interface responsiva para login e registro</li>
-  <li>Armazenamento do token para manter sessão</li>
+  <li>User registration system with data validation</li>
+  <li>Secure login with credential verification</li>
+  <li>JWT token generation and validation for authentication</li>
+  <li>Password hashing using bcrypt for security</li>
+  <li>Data persistence in a database</li>
+  <li>Responsive interface for login and registration</li>
+  <li>Token storage to maintain session</li>
 </ul>
 
-<h2>Tecnologias Utilizadas:</h2>
+<h2>Technologies Used:</h2>
 <ul>
   <li>
     <b>Back-End:</b> Node.js, Express, TypeScript, bcrypt, JSON Web Tokens (JWT)
   </li>
-  <li><b>Front-End:</b> React, requisições HTTP com fetch/axios</li>
-  <li><b>Segurança:</b> Hash de senhas, tokens JWT, validação de entrada</li>
-  <li><b>Arquitetura:</b> Padrão MVC com separação de concerns</li>
+  <li><b>Front-End:</b> React, HTTP requests with fetch/axios</li>
+  <li><b>Security:</b> Password hashing, JWT tokens, input validation</li>
+  <li><b>Architecture:</b> MVC pattern with separation of concerns</li>
 </ul>
 
 <h3>
-  O projeto demonstra técnicas de desenvolvimento full-stack com foco em
-  segurança, arquitetura escalável e boas práticas de autenticação.
+  The project demonstrates full-stack development techniques focusing on
+  security, scalable architecture, and authentication best practices.
 </h3>
 
 <p>
-  Desenvolvido com ❤️ por <b>Davi Teles de Moraes</b> - Contribuições são
-  bem-vindas!
+  Developed with ❤️ by <b>Davi Teles de Moraes</b> - Contributions are
+  welcome!
 </p>

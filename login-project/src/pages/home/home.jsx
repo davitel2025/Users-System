@@ -1,5 +1,6 @@
 import React from "react";
 import styles from './home.module.css';
+import { Link } from "react-router-dom";
 import api from "../../services/api";
 import { useEffect, useState, useRef } from "react";
 
@@ -69,7 +70,7 @@ export default function Home() {
                             <input type="password" id="password" name="password" placeholder="Enter your password" ref={inputPassword} required/>
                         </form>
                         <button className={styles.submitButton} onClick={createUsers} >SUBMIT</button>
-                        <a className={styles.loginLink} href="">Already have an account? Login here.</a>
+                        <Link className={styles.loginLink} to="/login" >Already have an account? Login here.</Link>
                     </div>
 
                     {/* Modal */}

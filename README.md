@@ -24,6 +24,10 @@
   <li>Data persistence in a database</li>
   <li>Responsive interface for login and registration</li>
   <li>Token storage to maintain session</li>
+  <li>Logout functionality to invalidate session</li>
+  <li>Refresh tokens to maintain secure sessions without re-login</li>
+  <li>Protected routes accessible only for authenticated users</li>
+  <li>Error and success feedback messages on the front-end</li>
 </ul>
 
 <h2>Technologies Used:</h2>

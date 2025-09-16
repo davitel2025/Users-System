@@ -87,17 +87,45 @@ input:focus {
     transition: 0.3s;
 }
 
+.homePageButton{
+    width: 160px;
+    
+    height: 80px;
+    padding: 10px;
+    background-color: #c48657;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.homePageButton:hover {
+    color: white;
+    background-color: #8a5a36;
+}
+
 button:hover {
     color: white;
     background: #0e0e0e;
 }
 
 .loginLink{
+    padding: 10px;
     font-size: 0.9rem;
     position: relative;
     bottom: 0;
-    margin-top: 50px;
+    margin: 10px 0px;
 
+}
+
+.buttonContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .modalOverlay {

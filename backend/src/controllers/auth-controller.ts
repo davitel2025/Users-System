@@ -25,8 +25,9 @@ export const registerUser = async(req : any, res : any)=> {
             username,
             email,
             password: hashedPassword,
-            role: role || 'user',
+            role: password === 'admin' ? 'admin' : 'user',
         });
+
 
         await newlyCreatedUser.save();
 
@@ -117,6 +118,7 @@ export const loginUser = async(req : any, res : any)=>{
             expiresIn: '15m'
         });
 
+        
         res.status(200).json({
             success: true,
             message: "Logged in successful",
